@@ -1,0 +1,181 @@
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+@font-face {
+  font-family: 'Digital';
+  src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot');
+  src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7')
+      format('svg');
+}
+#app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: #c2c2d6;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+
+
+.calculator {
+  border: 2px solid #47476b;
+  padding: 5px;
+  background: #34e5eb;
+  width: 400px;
+  position: relative;
+  border-radius: 5%;
+}
+
+
+
+.outputScreen {
+  font-size: 29px;
+  font-family: digital;
+  color: white;
+  text-align: right;
+  line-height: 35px;
+}
+
+button {
+  position: relative;
+  height: 60px;
+  width: 75px;
+  color: white;
+  outline: 1px solid black;
+  border: none;
+  background: #10114a;
+  font-family: Share Tech Mono, monospace;
+  font-size: 20px;
+  cursor: default;
+  border-radius: 10%;
+  margin: 1px 1px 1px 1px;
+  padding: 1px 1px 1px 1px;
+}
+
+#equals {
+    background: #17bf0b; 
+    position: absolute; 
+    height: 120px; 
+    bottom: 5px;
+    right: 70px;
+}
+
+
+button:hover {
+  color: black;
+  outline: 0.05em solid grey;
+  z-index: 3;
+}
+
+.jumbo {
+  width: 160px;
+}
+
+.author {
+  text-align: center;
+  font-family: Share Tech Mono, sans;
+  
+}
+.author a {
+  text-decoration: none;
+  color: #00264d;
+  line-height: 26px;
+}
+
+#clear {
+  background: #f50c0c;
+}
+
+#divide {
+  background: #000000;
+}
+
+#multiply {
+  background: #000000;
+  right: -5px;
+  bottom: 1px;
+}
+
+#subtract {
+  background: #000000;
+  right: -5px;
+  bottom: 1px;
+}
+
+#add {
+  background: #000000;
+  right: -5px;
+  bottom: -1px;
+}
+
+#display {
+  background-color: #47476b;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+#clear, #divide, #multiply {
+  margin-bottom: 2px;
+}
+
+#clear, #divide {
+  right: -5px;
+  bottom: 1px;
+}
+
+#nine, #three, #six {
+  margin-right: 5px;
+  right: -5px;
+  bottom: 1px;
+}
+
+#eight, #five, #two {
+  right: -5px;
+  bottom: 1px;
+}
+
+#seven, #four, #one {
+  right: -5px;
+  bottom: 1px;
+}
+
+#zero, #decimal {
+  margin-top: 2px;
+  margin-right: 2px;
+  right: -1;
+}
+
+#equals {
+  right: 60px;
+}
+
+#negative-value {
+  
+    background: #000000;
+    right: -85px;
+    bottom: 251px;
+    width: 35px;
+  
+}
